@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Kosugi');
+
+body, html {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  background-color: white;
+}
+
+.section-one {
+  display: static;
+  margin-top: 0;
+  padding-top: 0;
+  top: 0px;
+  width: 100%;
+  background-color: #0033cc;
+}
+
+.section-one h3 {
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 0;
+}
+
+#splash {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#splash h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Kosugi', Verdana;
+  font-size: 2.8rem;
+}
+
+#income-input {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.dropdown-menu {
+  display: inline-block;
+}
+
+#submit {
+  margin-bottom: 50px;
+  display: inline;
+  position: relative;
+}
+
+.spacer {
+  position: absolute;
+  display: block;
+  width: 20%;
+}
+
+.section-two {
+  background-color: white;
+  font-family: 'Kosugi', Verdana;
+  text-align: justify;
+  display: block;
+  position: absolute;
+  width: 80%;
+  height: auto;
+  left: 20%;
+  color: black;
+}
+
+.section-two h1 {
+  font-size: 1.5rem;
+}
+
+.section-two span {
+  color: red;
+}
+
+.section-two h5 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#frequency {
+  margin-top: 0;
+  padding-top: 0;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+#frequency-declared {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-family: 'Kosugi', Verdana;
+  font-size: 2.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  #submit {
+    width: 100%;
+    margin-top: 50px;
+  }
+  #frequency {
+    width: 100%;
+  }
+  #frequency-declared {
+    font-size: 0.9rem;
+  }
+  #income-input {
+    width: 100%;
+  }
+
+  #income-work {
+    line-height: 3;
+  }
+
+  #income-other {
+    line-height: 3;
+  }
+
+  #splash h1 {
+    font-size: 2rem;
+  }
+  .section-two {
+    left: 5%;
+  }
+  .section-two h1 {
+    font-size: 0.9rem;
+  }
+  .section-one h3 {
+    font-size: 0.9rem;
+  }
+}
